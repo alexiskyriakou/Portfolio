@@ -75,35 +75,29 @@ management controller through the I2C interface.
 
 ## Engineering Highlights
 
-## Redundant Power Inputs
-
+- Redundant Power Inputs
 The design supports two independent input power sources and
 automatically manages the power path between them.
 
-## Ideal-Diode Power OR-ing
-
+- Ideal-Diode Power OR-ing
 External N-channel MOSFETs are used instead of conventional
 Schottky diodes to reduce conduction losses and improve power-path
 efficiency.
 
-## Input Prioritization
-
+- Input Prioritization
 The input control logic provides priority management between the
 two power sources, allowing the preferred source to remain active
 while providing automatic transition to the secondary source.
 
-## Hot-Swap Protection
-
+- Hot-Swap Protection
 The LTC4227 provides controlled MOSFET turn-on to limit inrush
 current when the system is connected to a live power source.
 
-## Fault Protection
-
+- Fault Protection
 The design includes overcurrent and fault detection with
 FAULT and POWER GOOD status signals.
 
-## Power Monitoring
-
+- Power Monitoring
 The INA3221 provides digital monitoring of voltage and current
 through an I2C interface, allowing the system controller to
 continuously monitor the power system.

@@ -8,29 +8,18 @@ The design accepts AC mains power, which is stepped down via an HLK-5M05 AC-DC m
 An ESP32-S2-Mini-1 module handles system control and wireless communication. Dual electromechanical relays (RF-SS-105DM) are driven by 2N7002-7-F MOSFETs with optocoupler isolation (ORPC-817S/B) to safely manage external loads.
 Key Features
 
-    ESP32-S2-Mini-1 microcontroller with Wi-Fi
-
-    AC-DC power conversion (HLK-5M05) providing 5V output
-
-    3.3V voltage regulation (BL1117-33CX LDO)
-
-    Dual electromechanical relay outputs (RF-SS-105DM)
-
-    MOSFET relay drivers (2N7002-7-F) with flyback diodes (1N4148WSG)
-
-    Optocoupler isolation (ORPC-817S/B) for relay control protection
-
-    Integrated RGB status indicator LED (E6C0606RGBC3UDA)
-
-    Tactile push buttons for manual control, factory reset, and programming
-
-    Temperature sensor interfaces via dedicated headers
-
-    SPI and GPIO expansion headers (CS, MOSI, CLK, MISO)
-
-    Dedicated programming port with auto-reset circuit using L8050HQLT1G transistors
-
-    Standard JTAG debugging interface
+- ESP32-S2-Mini-1 microcontroller with Wi-Fi
+- AC-DC power conversion (HLK-5M05) providing 5V output
+- 3.3V voltage regulation (BL1117-33CX LDO)
+- Dual electromechanical relay outputs (RF-SS-105DM)
+- MOSFET relay drivers (2N7002-7-F) with flyback diodes (1N4148WSG)
+- Optocoupler isolation (ORPC-817S/B) for relay control protection
+- Integrated RGB status indicator LED (E6C0606RGBC3UDA)
+- Tactile push buttons for manual control, factory reset, and programming
+- Temperature sensor interfaces via dedicated headers
+- SPI and GPIO expansion headers (CS, MOSI, CLK, MISO)
+- Dedicated programming port with auto-reset circuit using L8050HQLT1G transistors
+- Standard JTAG debugging interface
 
 ## System Architecture
 

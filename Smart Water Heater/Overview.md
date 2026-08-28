@@ -1,5 +1,5 @@
-ESP32-S2 Smart Relay & Sensor Controller
-Overview
+# ESP32-S2 Smart Relay & Sensor Controller
+## Overview
 
 A smart IoT controller and power management solution designed to provide reliable dual-relay switching, sensor data acquisition, local user control, and Wi-Fi connectivity.
 
@@ -32,7 +32,7 @@ Key Features
 
     Standard JTAG debugging interface
 
-System Architecture
+## System Architecture
 
 The hardware system consists of three main functional blocks:
 
@@ -42,7 +42,7 @@ The hardware system consists of three main functional blocks:
 
     Switching, Sensing, and Communications
 
-Power Supply and Regulation
+## Power Supply and Regulation
 
 AC mains voltage is supplied to the board and converted via the HLK-5M05 module to produce a stable 5V rail.
 
@@ -59,7 +59,7 @@ Two independent relay circuits allow the system to switch high-voltage or high-c
 External sensor headers allow temperature monitoring, while expansion headers break out SPI lines (MOSI, MISO, CLK, CS) and additional general-purpose I/O for system expansion.
 Engineering Highlights
 
-    Isolated Relay Driving
+    - Isolated Relay Driving
     The design uses optocouplers to isolate the low-voltage microcontroller pins from the electromechanical relay coils, protecting the logic circuitry from inductive kickback.
 
     Integrated AC-DC Conversion
@@ -71,7 +71,7 @@ Engineering Highlights
     Flexible Peripherals
     Provides multi-pin headers for SPI communication, temperature sensors, and debugging, making the hardware adaptable for various IoT monitoring and automation tasks.
 
-My Contribution
+## My Contribution
 
     Hardware architecture and system design
 

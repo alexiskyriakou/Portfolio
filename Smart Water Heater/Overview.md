@@ -25,11 +25,9 @@ Key Features
 
 The hardware system consists of three main functional blocks:
 
-    Power Supply and Regulation
-
-    Processing and User Interface
-
-    Switching, Sensing, and Communications
+- Power Supply and Regulation
+- Processing and User Interface
+- Switching, Sensing, and Communications
 
 ## Power Supply and Regulation
 
@@ -48,34 +46,23 @@ Two independent relay circuits allow the system to switch high-voltage or high-c
 External sensor headers allow temperature monitoring, while expansion headers break out SPI lines (MOSI, MISO, CLK, CS) and additional general-purpose I/O for system expansion.
 Engineering Highlights
 
-    - Isolated Relay Driving
+- Isolated Relay Driving
     The design uses optocouplers to isolate the low-voltage microcontroller pins from the electromechanical relay coils, protecting the logic circuitry from inductive kickback.
-
-    Integrated AC-DC Conversion
+- Integrated AC-DC Conversion
     Features an onboard HLK-5M05 power module, allowing the board to run directly from AC mains power without requiring an external wall adapter.
-
-    Automated Programming Circuitry
+- Automated Programming Circuitry
     Incorporates transistor-based auto-reset logic connected to the programming port to streamline firmware updates without manual button timing.
-
-    Flexible Peripherals
+- Flexible Peripherals
     Provides multi-pin headers for SPI communication, temperature sensors, and debugging, making the hardware adaptable for various IoT monitoring and automation tasks.
 
 ## My Contribution
 
-    Hardware architecture and system design
-
-    Power supply and regulation circuit implementation (HLK-5M05 and BL1117)
-
-    ESP32-S2 integration and peripheral mapping
-
-    Dual-relay driver design with MOSFETs and optocoupler isolation
-
-    Sensor interface and expansion header layout
-
-    Programming port and auto-reset circuit design
-
-    Component selection and schematic capture
-
-    PCB layout, routing, and design rule validation
-
-    Hardware bring-up, debugging, and testing
+- Hardware architecture and system design
+- Power supply and regulation circuit implementation (HLK-5M05 and BL1117)
+- ESP32-S2 integration and peripheral mapping
+- Dual-relay driver design with MOSFETs and optocoupler isolation
+- Sensor interface and expansion header layout
+- Programming port and auto-reset circuit design
+- Component selection and schematic capture
+- PCB layout, routing, and design rule validation
+- Hardware bring-up, debugging, and testing

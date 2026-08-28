@@ -73,7 +73,7 @@ The monitoring section provides:
 The monitoring data can be read by an external processor or
 management controller through the I2C interface.
 
-## Engineering Highlights
+### Engineering Highlights
 
 - Redundant Power Inputs
 The design supports two independent input power sources and
